@@ -941,43 +941,13 @@ footer {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background: var(--accent-color);
-    color: white;
-    padding: 14px 28px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
-    font-weight: 600;
-    box-shadow: 0 10px 25px var(--accent-glow);
     z-index: 9999;
-    transition: var(--transition);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(5px);
-}
-
-.floating-login-btn:hover {
-    transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 15px 35px var(--accent-glow);
-    background: #d97706;
-}
-
-.floating-login-btn svg {
-    width: 20px;
-    height: 20px;
-    transition: var(--transition);
-}
-
-.floating-login-btn:hover svg {
-    transform: rotate(15deg);
+    white-space: nowrap;
 }
 
 @media (max-width: 500px) {
     .floating-login-btn {
         bottom: 20px;
         right: 20px;
-        padding: 12px 20px;
-        font-size: 0.9rem;
     }
 }
